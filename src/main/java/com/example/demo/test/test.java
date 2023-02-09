@@ -14,7 +14,7 @@ public class test extends SpringBootServletInitializer {
 		SpringApplication.run(test.class, args);
 	}
 
-	@RequestMapping("/")
+	@RequestMapping("/test")
 	String sayHello() {
 		return "Hello Azure!";
 	}
