@@ -10,9 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class test extends SpringBootServletInitializer {
 
-	public static void main(String[] args) {
-		SpringApplication.run(test.class, args);
-	}
 
 	@RequestMapping("/test")
 	String sayHello() {
